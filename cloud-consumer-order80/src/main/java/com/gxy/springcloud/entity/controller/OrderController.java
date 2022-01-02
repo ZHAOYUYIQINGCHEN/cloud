@@ -1,4 +1,4 @@
-package com.gxy.springcloud.controller;
+package com.gxy.springcloud.entity.controller;
 
 import com.gxy.springcloud.entity.CommonResult;
 import com.gxy.springcloud.entity.Payment;

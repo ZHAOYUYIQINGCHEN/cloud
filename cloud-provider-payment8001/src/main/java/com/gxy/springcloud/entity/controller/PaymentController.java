@@ -1,9 +1,9 @@
-package com.gxy.springcloud.controller;
+package com.gxy.springcloud.entity.controller;
 
 
 import com.gxy.springcloud.entity.CommonResult;
 import com.gxy.springcloud.entity.Payment;
-import com.gxy.springcloud.service.PaymentService;
+import com.gxy.springcloud.entity.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
-package com.gxy.springcloud.service;
+package com.gxy.springcloud.entity.service;
 
 
-import com.gxy.springcloud.dao.PaymentDao;
+import com.gxy.springcloud.entity.dao.PaymentDao;
 import com.gxy.springcloud.entity.Payment;
 import org.springframework.stereotype.Service;
 

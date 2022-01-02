@@ -1,11 +1,14 @@
-package com.gxy.springcloud.service;
-
+package com.gxy.springcloud.entity.dao;
 
 import com.gxy.springcloud.entity.Payment;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-
-public interface PaymentService
+/**
+ */
+@Mapper
+//@Repository不用Spring的
+public interface PaymentDao
 {
     public int create(Payment payment);
 
