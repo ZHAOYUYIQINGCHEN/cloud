@@ -1,7 +1,7 @@
-package com.gxy.springcloud.entity.controller;
+package com.gxy.springcloud.controller;
 
-import com.gxy.springcloud.entity.CommonResult;
-import com.gxy.springcloud.entity.Payment;
+import com.gxy.springcloud.CommonResult;
+import com.gxy.springcloud.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,7 +20,8 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    //public static final String PAYMENT_URL = "http://localhost:8001";
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;

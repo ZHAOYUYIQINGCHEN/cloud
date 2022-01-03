@@ -1,4 +1,4 @@
-package com.gxy.springcloud.entity;
+package com.gxy.springcloud;
 
 /**
  * @program: cloud2021
