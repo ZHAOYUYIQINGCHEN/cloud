@@ -1,7 +1,7 @@
 package com.gxy.springcloud.service;
 
 
-import com.gxy.springcloud.entity.Payment;
+import com.gxy.springcloud.Payment;
 import org.apache.ibatis.annotations.Param;
 
 
